@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(231, 231, 231);
+  font-style: arial;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+
+  background-color: white;
+  padding: 15px 10px;
+  width: 700px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 20px 5px rgba(4, 1, 65, 0.47);
+}
+img {
+  object-fit: cover;
+  height: 250px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 40px;
+}
+.sponsor {
+  color: rgb(91, 91, 91);
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+.title {
+  font-size: 1.6rem;
+  font-weight: 100;
+  margin-bottom: 6px;
+}
+.author,
+.date {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+.phrase {
+  display: flex;
+  color: rgb(91, 91, 91);
+  margin-bottom: 10px;
+}
+.Michel {
+  color: #007185;
+}
+.Michel:hover,
+.title:hover,
+.relie:hover {
+  color: orangered;
+  cursor: pointer;
+}
+.relie {
+  color: #007185;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.price {
+  font-size: 2rem;
+  margin-bottom: 8px;
+}
+.livraison {
+  font-size: 1rem;
+}
+.i {
+  height: 0.9rem;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+.header {
+  display: flex;
+}
